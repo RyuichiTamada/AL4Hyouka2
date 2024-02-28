@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="シェーダー ファイル">
+      <UniqueIdentifier>{718c7f4c-fc51-40ad-a221-b9456a7a1a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\3d">
+      <UniqueIdentifier>{8ccef709-d514-43f7-ad35-629a9edd5057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\2d">
+      <UniqueIdentifier>{96135050-efba-425e-a9fe-8881bd7caad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\audo">
+      <UniqueIdentifier>{3a0044cc-1b7d-4ed5-a1a6-9074ed1b1769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\base">
+      <UniqueIdentifier>{551d5cf3-f4a6-49b9-832f-076a33cef817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\base">
+      <UniqueIdentifier>{74394124-7d35-4440-8404-7b478262b455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{e2d0b4b8-24a1-4854-8e5b-bb6ed09f1add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{8f83101b-6ce3-4c73-a4d3-5052382dedab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\input">
+      <UniqueIdentifier>{337d978c-44b1-4af3-811b-c5f6f355f7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\input">
+      <UniqueIdentifier>{d461f61e-3cc4-4b11-b521-37a61c927ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\math">
+      <UniqueIdentifier>{4c21a99e-f783-4367-bdcb-0ebd1d434719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\math">
+      <UniqueIdentifier>{647f4977-924a-4954-923f-5619e5afc9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\2d">
+      <UniqueIdentifier>{814a0f6d-f847-4c45-856d-4688fa4c9e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ground">
+      <UniqueIdentifier>{5ca987d9-2d1d-45fb-9df7-8d5f041f10e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\skydome">
+      <UniqueIdentifier>{ecd60e68-596b-4df7-8cbd-622fcf631259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\world">
+      <UniqueIdentifier>{a32f4395-7140-4234-a196-2ebe41ad4a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ground">
+      <UniqueIdentifier>{afbd69c8-02a9-439b-b9f9-ebcf1c05b540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\skydome">
+      <UniqueIdentifier>{07b20981-401a-4f3e-a079-4a753bfdea4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\followcamera">
+      <UniqueIdentifier>{fd63dbec-807c-41fc-b7a0-0c68704bf05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\followcamera">
+      <UniqueIdentifier>{d30779fe-7b47-4553-bae9-714159d44e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\basecharacter">
+      <UniqueIdentifier>{afd6d201-3afb-49cd-9819-2c32b1faebc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\basecharacter">
+      <UniqueIdentifier>{302899f1-a25b-4e9d-8f91-8523b76093c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\basecharacter\player">
+      <UniqueIdentifier>{3816c857-83cb-42c6-a8bf-8acba1e8436e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\basecharacter\player">
+      <UniqueIdentifier>{27dbad13-b0ec-482b-8045-3e929eb9d1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\basecharacter\enemy">
+      <UniqueIdentifier>{0a7855f6-021d-4821-bb01-87fe41c46737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\basecharacter\enemy">
+      <UniqueIdentifier>{7b1c4875-d600-4794-9efe-ce8f2d980c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collider">
+      <UniqueIdentifier>{51dd7cf7-6fb7-42ac-a432-fdb3fcaeccb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{be0b80f5-696e-41de-9945-29eabf23b538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utility">
+      <UniqueIdentifier>{432a1766-0902-42b1-85a5-16374b6d3a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Collider">
+      <UniqueIdentifier>{28a5e6ef-6def-49f7-9c21-13bf878c5a08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="base\DirectXCommon.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\WinApp.cpp">
+      <Filter>ソース ファイル\base</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\GameScene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="2d\ImGuiManager.cpp">
+      <Filter>ソース ファイル\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="ground\Ground.cpp">
+      <Filter>ソース ファイル\ground</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome\Skydome.cpp">
+      <Filter>ソース ファイル\skydome</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\BaseCharacter.cpp">
+      <Filter>ソース ファイル\basecharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\basecharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\EnemyBullet.cpp">
+      <Filter>ソース ファイル\basecharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collider.cpp">
+      <Filter>ソース ファイル\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ColliderConfig.cpp">
+      <Filter>ソース ファイル\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\ColliderManager.cpp">
+      <Filter>ソース ファイル\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FollowCamera.cpp">
+      <Filter>ソース ファイル\followcamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\GlobalVariables.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\Player.cpp">
+      <Filter>ソース ファイル\basecharacter\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player\PlayerBullet.cpp">
+      <Filter>ソース ファイル\basecharacter\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TimedCall.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="World\WorldTransformEx.cpp">
+      <Filter>ソース ファイル\world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3d\ViewProjection.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\WorldTransform.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\CircleShadow.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\DebugCamera.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\DirectionalLight.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\LightGroup.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Material.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Model.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Mesh.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\PointLight.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\SpotLight.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\Sprite.h">
+      <Filter>ヘッダー ファイル\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\Audio.h">
+      <Filter>ヘッダー ファイル\audo</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DirectXCommon.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SafeDelete.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TextureManager.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\WinApp.h">
+      <Filter>ヘッダー ファイル\base</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="input\Input.h">
+      <Filter>ヘッダー ファイル\input</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Matrix4x4.h">
+      <Filter>ヘッダー ファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector3.h">
+      <Filter>ヘッダー ファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector2.h">
+      <Filter>ヘッダー ファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\Vector4.h">
+      <Filter>ヘッダー ファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\AxisIndicator.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\PrimitiveDrawer.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\Terrain.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="3d\TerrainCommon.h">
+      <Filter>ヘッダー ファイル\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="2d\ImGuiManager.h">
+      <Filter>ヘッダー ファイル\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="ground\Ground.h">
+      <Filter>ヘッダー ファイル\ground</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MyMath.h">
+      <Filter>ヘッダー ファイル\math</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome\Skydome.h">
+      <Filter>ヘッダー ファイル\skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collider.h">
+      <Filter>ヘッダー ファイル\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderConfig.h">
+      <Filter>ヘッダー ファイル\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\BaseCharacter.h">
+      <Filter>ヘッダー ファイル\basecharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\ColliderManager.h">
+      <Filter>ヘッダー ファイル\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Enemy.h">
+      <Filter>ヘッダー ファイル\basecharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\EnemyBullet.h">
+      <Filter>ヘッダー ファイル\basecharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FollowCamera.h">
+      <Filter>ヘッダー ファイル\followcamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\GlobalVariables.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\Player.h">
+      <Filter>ヘッダー ファイル\basecharacter\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player\PlayerBullet.h">
+      <Filter>ヘッダー ファイル\basecharacter\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TimedCall.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\shaders\SpritePS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\SpriteVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ShapeVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ShapePS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ObjPS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\ObjVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PrimitivePS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\PrimitiveVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\TerrainPS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\shaders\TerrainVS.hlsl">
+      <Filter>シェーダー ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\Sprite.hlsli">
+      <Filter>シェーダー ファイル</Filter>
+    </None>
+    <None Include="Resources\shaders\Shape.hlsli">
+      <Filter>シェーダー ファイル</Filter>
+    </None>
+    <None Include="Resources\shaders\Obj.hlsli">
+      <Filter>シェーダー ファイル</Filter>
+    </None>
+    <None Include="Resources\shaders\Primitive.hlsli">
+      <Filter>シェーダー ファイル</Filter>
+    </None>
+    <None Include="Resources\shaders\Terrain.hlsli">
+      <Filter>シェーダー ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>

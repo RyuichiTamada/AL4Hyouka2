@@ -1,0 +1,22 @@
+{
+    "Player": {
+        "Head Translation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "Left Arm Translation": [
+            -1.5,
+            5.0,
+            0.0
+        ],
+        "Right Arm Translation": [
+            1.5,
+            5.0,
+            0.0
+        ],
+        "Testing": 90,
+        "floatingCycle Arm": 0.0,
+        "floatingCycle Body": 0.0
+    }
+}
